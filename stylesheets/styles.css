@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #5DCFE5;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin: 20px 0 40px 0;
+}
+
+input {
+	border: none;
+}
+
+dt, dd {
+	padding: 0 0 20px 0;
+}
+
+dd {
+	margin: 0;
+}
+
+input[type="text"], 
+input[type="submit"], 
+.custom-file-upload {
+	font-family: 'Lato', sans-serif;
+	height: 30px;
+	width: 200px;
+}
+
+input[type="text"] {
+	padding: 5px;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+.custom-file-upload,
+input[type="submit"] {
+	border: 1px solid #ccc;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+    padding: 3px 0 0 0;
+}
+
+input[type="submit"] {
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+}

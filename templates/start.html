@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<h1>Wgraj plik</h1>
+		<form action="/upload" enctype="multipart/form-data" method="post">
+			<dl>
+				<dt>
+					<label>Tytuł pliku</label>
+				</dt>
+				<dd>
+					<input type="text" name="title">
+				</dd>
+				<dt>
+					<label class="custom-file-upload" for="file-upload">Wybierz plik</label>
+				</dt>
+				<dd>
+					<input type="file" name="upload" multiple="multiple" id="file-upload">
+				</dd>
+				<dt>
+					<input type="submit" value="Wyślij">
+				</dt>
+			</dl>
+		</form>
+	</body>
+</html>
